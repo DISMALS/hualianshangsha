@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>新闻列表</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/list.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<!-- #include file="header.html" -->
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--news start-->
+<section class="news">
+    <span class="allTit">
+        <b class="bigF"><i class="blue">新闻</i>关注</b>
+        <font class="eF">Follow news</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="newsMain">
+        <ul class="slidesTits">
+            <li class="liOne on"><a href="newsList.html">企业公告</a></li>
+            <li class="liThree"><a href="newsList.html">活动快讯</a></li>
+            <li class="liTwo"><a href="newsList.html">新闻热点</a></li>
+        </ul>
+        <ul class="slidesList">
+            <li>
+                <a href="newsCommon.html">
+                    <b class="tits">夏季新品热推</b>
+                    <p class="miaos">耀眼荧光色美装 让你闪亮一夏 今年夏季，大热的荧光色，不知道MM们是否都已经尝试过了你在各种耀眼</p>
+                    <em class="time">2016-07-04</em>
+                </a>
+            </li>
+            <li>
+                <a href="newsCommon.html">
+                    <b class="tits">夏季新品热推</b>
+                    <p class="miaos">耀眼荧光色美装 让你闪亮一夏 今年夏季，大热的荧光色，不知道MM们是否都已经尝试过了你在各种耀眼</p>
+                    <em class="time">2016-07-04</em>
+                </a>
+            </li>
+            <li>
+                <a href="newsCommon.html">
+                    <b class="tits">夏季新品热推</b>
+                    <p class="miaos">耀眼荧光色美装 让你闪亮一夏 今年夏季，大热的荧光色，不知道MM们是否都已经尝试过了你在各种耀眼</p>
+                    <em class="time">2016-07-04</em>
+                </a>
+            </li>
+            <li>
+                <a href="newsCommon.html">
+                    <b class="tits">夏季新品热推</b>
+                    <p class="miaos">耀眼荧光色美装 让你闪亮一夏 今年夏季，大热的荧光色，不知道MM们是否都已经尝试过了你在各种耀眼</p>
+                    <em class="time">2016-07-04</em>
+                </a>
+            </li>
+            <li>
+                <a href="newsCommon.html">
+                    <b class="tits">夏季新品热推</b>
+                    <p class="miaos">耀眼荧光色美装 让你闪亮一夏 今年夏季，大热的荧光色，不知道MM们是否都已经尝试过了你在各种耀眼</p>
+                    <em class="time">2016-07-04</em>
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="more">查看更多</a>
+    </div>
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+</body>
+</html>

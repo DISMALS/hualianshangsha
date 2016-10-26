@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <meta name="keywords" content="郑州华联商厦">
+    <meta name="description" content="郑州华联商厦">
+    <title>用人理念</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--toper start-->
+<!-- #include file="header.html" -->
+
+<div class="otherBanner">
+    <img src="images/other/kfzx.jpg" />
+</div>
+<!--employmentConception start-->
+<div class="onLineOrder">
+    <span class="title">
+        <b><i class="blue">人力</i>资源</b>
+        <font>Human Resources</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="tab">
+        <a href="employmentConception.html" class="on">用人理念</a>
+        <a href="recruit.html">英才招聘</a>
+        <a href="resume.html">简历投递</a>
+    </div>
+    <div class="employmentM">
+        <b>企业的竞争，是服务的竞争、是产品的竞争、科技的竞争，但最终是人才的竞争。</b>
+        <p>郑州华联商厦有限责任公司十分重视人才的引进与培养，一直把吸引人才、培育人才、最大限度地发挥人才的作用，作为企业的一项战略任务。公司建立了一套完备、系统的培训体系，为员工在专业技能和职业发展提供各种类型的培训，并配套相应的绩效考核制度，为员工奖励、晋升提供客观、可靠的依据。</p>
+        <p>充分调动了管理人员的工作激情与创新思维，造就了一批优秀的经理队伍。公司始终把人才作为企业发展的根本动力，努力从不同的方面吸引人才，努力为每个人打造人尽其才的便利条件，留住人才，使企业成为人才聚集的高地。</p>
+        <img src="images/other/employmentPic1.jpg" />
+        <img src="images/other/employmentPic2.jpg" />
+        <img src="images/other/employmentPic3.jpg" />
+    </div>
+</div>
+
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+<!--rightSide start-->
+<!-- #include file="rightSide.html" -->
+
+<script type="text/javascript">
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 10) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 10) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

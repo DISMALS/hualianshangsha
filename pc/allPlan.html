@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <meta name="keywords" content="郑州华联商厦">
+    <meta name="description" content="郑州华联商厦">
+    <title>整体规划</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--toper start-->
+<!-- #include file="header.html" -->
+
+<div class="otherBanner">
+    <img src="images/list/guihua_banner.jpg" />
+</div>
+<!--onLineOrder start-->
+<div class="onLineOrder">
+    <span class="title">
+        <b><i class="blue">楼层</i>介绍</b>
+        <font>Floor Guide</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="tab">
+        <a href="allPlan.html" class="on">整体规划</a>
+        <a href="floorGuide.html">楼层介绍</a>
+        <a href="areaPic.html">分布平面图</a>
+    </div>
+    <div class="planMain">
+        <img src="images/other/guihua.jpg" />
+        <b class="rightTit">郑州华联商厦——全国华联集团成员单位</b>
+        <p>位于闻名全国的商战发源地——郑州二七广场，全国交通枢纽聚集地带——郑州火车站毗邻，所在区域公交网络密布，郑州地铁1、3号线在商厦东西广场分别设有进出口。是人气与财富聚集地带，潜在商机无限。</p>
+        <p>郑州华联商厦1990年9月1日开业。2007年改制成立郑州华联商厦有限责任公司。</p>
+        <p>新公司获得了新的发展机遇，以全新的购物理念、把“诚立德、信立业”作为企业行业为准则，坚持“诚信立业”的经营指导思想，树立合作双赢互信共赢意识，积极推动企业间的诚实守信经营，与供应商、合作伙伴建立长期、密切、互信互惠的业务关系。致力于打造现代百货中的流行百货，经营业态进入全新的商业模式。</p>
+        <p>郑州华联商厦有限责任公司在客户和同仁的长期支持下一路走来，伴随着企业品牌与销售的提升，得以快速成长。我们期待以体制创新、机遇灵活，位置优越的独特优势为您提供真诚的服务，与您携手并进共创辉煌。</p>
+    </div>
+</div>
+
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+<!--rightSide start-->
+<!-- #include file="rightSide.html" -->
+
+<script type="text/javascript">
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 80) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 80) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

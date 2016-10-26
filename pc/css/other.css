@@ -1,0 +1,1071 @@
+﻿@charset "UTF-8";
+/*
+    制作时间：2016.06.13
+    作者：王勇
+    用途：郑州华联商厦首页样式表
+*/
+body{background:#fff;font-size:12px;position:relative;}
+/*main start*/
+.orderMain{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+}
+.bdAlone{
+    display:block;
+    width:1120px;
+    height:44px;
+    line-height:44px;
+    color:#666;
+    font-size:14px;
+    padding-left:80px;
+    margin-bottom:25px;
+    position:relative;
+}
+.bdAlone span{
+    width:85px;
+    height:44px;
+    float:left;
+    display:block;
+    text-align:left;
+}
+.bdAlone input{
+    width:512px;
+    height:42px;
+    line-height:42px;
+    border:1px solid #e1dfdf;
+    float:left;
+    padding:0px 0px 0px 10px;
+    background:#fff;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    color:#666;
+}
+.sex{
+    width:524px;
+    height:44px;
+    line-height:44px;
+    border:1px solid #e1dfdf;
+    float:left;
+    background:#fff;
+    padding:3px 3px 3px 10px;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    color:#666;
+}
+.bdAlone i{
+    font-style:normal;
+    padding-left:4px;
+}
+.bdAlone input.sub{
+    width:230px;
+    height:40px;
+    background:#035cac;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px;
+    margin-left:85px;
+    cursor:pointer;
+}
+.subBtn{
+    margin-top:35px;
+}
+/*member Registeration start*/
+.memberReg{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+    overflow:hidden;
+}
+.memberMain{
+    display:block;
+    width:600px;
+    height:44px;
+    float:left;
+    margin-bottom:25px;
+    line-height:44px;
+    font-size:14px;
+    color:#666;
+    position:relative;
+}
+.memberMain span{
+    width:60px;
+    height:44px;
+    float:left;
+    display:block;
+    text-align:right;
+    margin-right:10px;
+}
+.memberMain input{
+    width:500px;
+    height:42px;
+    line-height:42px;
+    border:1px solid #e1dfdf;
+    float:left;
+    padding:0px 0px 0px 10px;
+    background:#fff;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    color:#666;
+}
+.memberMain input.yzm{
+    width:150px;
+    height:42px;
+    line-height:42px;
+    border:1px solid #e1dfdf;
+    float:left;
+    padding:0px 0px 0px 7px;
+    background:#fff;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    color:#666;
+}
+.memberMain input.memBtn{
+    width:230px;
+    height:44px;
+    background:#035cac;
+    line-height:44px;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    padding:0px;
+    cursor:pointer;
+}
+.memberMain .yzmPic{
+    width:87px;
+    height:42px;
+    border:1px solid #e1dfdf;
+    float:left;
+    margin:0px 20px;
+}
+/*feedBack start*/
+.textArea{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    margin-bottom:25px;
+    display:block;
+}
+.textArea span{
+    width:60px;
+    height:245px;
+    font-size:14px;
+    color:#666;
+    float:left;
+    display:block;
+    text-align:right;
+    margin-right:10px;
+    line-height:245px;
+}
+.textMain{
+    width:1091px;
+    height:233px;
+    float:left;
+    border:1px solid #e1dfdf;
+    padding:5px 10px;
+    outline:none;
+    font-family:'Microsoft YaHei';
+    font-size:14px;
+    line-height:24px;
+    color:#666;
+}
+/*contactUs start*/
+.map{
+    width:1198px;
+    height:456px;
+    margin:0px auto 30px;
+    overflow:hidden;
+    border:1px solid #e1dfdf;
+}
+.map img{
+    display:block;
+}
+.contactUsM{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    margin:0px auto;
+}
+.contactMoudle{
+    width:405px;
+    float:left;
+    height:auto;
+    background:url(../images/other/mapIcon.png) no-repeat 150px 32px;
+    padding:29px 0px 35px 195px;
+}
+.moudleTit{
+    color:#065baa;
+    font-size:18px;
+    line-height:30px;
+    display:block;
+    margin-bottom:20px;
+}
+.otherText{
+    display:block;
+    color:#666666;
+    font-size:14px;
+    font-style:normal;
+}
+.fl{
+    display:block;
+    width:1200px;
+    height:1px;
+    border:none;
+    background:#e9e9e9;
+}
+/*employment start*/
+.employmentM{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+    text-align:center;
+}
+.employmentM b{
+    display:block;
+    font-size:22px;
+    color:#666;
+    line-height:36px;
+}
+.employmentM p{
+    color:#666;
+    font-size:14px;
+    line-height:24px;
+    margin:20px auto 30px;
+}
+.employmentM img{
+    display:inline-block;
+    margin:20px 5px 0px;
+}
+/*recruit start*/
+.recruitMain{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+    overflow:hidden;
+}
+.recruitModule{
+    width:335px;
+    height:294px;
+    float:left;
+    margin:15px 7.5px;
+    padding:20px 25px 30px;
+    background:#fff;
+    position:relative;
+}
+.time{
+    display:block;
+    line-height:14px;
+    font-size:12px;
+    color:#999999;
+    font-style:normal;
+}
+.recruitTit{
+    display:block;
+    font-size:18px;
+    color:#333;
+    line-height:40px;
+    border-bottom:1px solid #d8d6d6;
+}
+.ms{
+    margin:15px 0px;
+    font-size:14px;
+    color:#888;
+    line-height:24px;
+    height:156px;
+    overflow:hidden;
+}
+.ms em{
+    font-size:16px;
+    display:block;
+    line-height:36px;
+    font-style:normal;
+}
+.moreBtn{
+    display:block;
+    width:146px;
+    height:36px;
+    line-height:36px;
+    border:1px solid #999999;
+    border-radius:20px;
+    text-align:center;
+    color:#444444;
+    font-size:14px;
+    position:absolute;
+    top:275px;
+    left:25px;
+}
+.moreBtn:hover{
+    border:1px solid #666;
+}
+/*popFloor start*/
+.pop{
+    width:100%;
+    height:100%;
+    background:url(../images/other/popBg.png) repeat left top;
+    position:absolute;
+    top:0px;
+    left:0px; 
+    z-index:2;
+}
+.popFloor{
+    width:660px;
+    height:auto;
+    position:relative;
+    top:100px;
+    left:300px;
+    z-index:3;
+}
+.popTop{
+    width:660px;
+    height:10px;
+    background:url(../images/other/popTop.png) no-repeat center bottom;
+}
+.popBottom{
+    width:660px;
+    height:10px;
+    background:url(../images/other/popBottom.png) no-repeat top center;
+}
+.closeBtn{
+    width:13px;
+    height:13px;
+    position:absolute;
+    top:18px;
+    right:16px;
+    z-index:6;
+}
+.popMain{
+    width:610px;
+    height:auto;
+    background:#fff;
+    padding:30px 25px 40px;
+}
+.popTit{
+    display:block;
+    color:#666;
+    font-size:14px;
+    line-height:44px;
+    border-bottom:1px solid #d8d6d6;
+    margin-bottom:30px;
+}
+.popTit b{
+    float:left;
+    font-size:20px;
+    color:#444444;
+    line-height:40px;
+    display:block;
+    margin-right:20px;
+}
+.popTit i{
+    float:right;
+    font-style:normal;
+    font-size:12px;
+}
+.popMain p{
+    font-size:14px;
+    color:#888;
+    line-height:30px;
+}
+.popMain p b{
+    display:block;
+    color:#666;
+    font-size:16px;
+}
+.onlineRecruit{
+    display:block;
+    width:148px;
+    height:38px;
+    line-height:38px;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    background:#065baa;
+    border-radius:20px;
+    margin-left:462px;
+}
+/*resume start*/
+.resumeMain{
+    width:1200px;
+    height:auto;
+    margin:0px auto;
+    overflow:hidden;
+}
+.resumeBdTop{
+    width:1140px;
+    height:30px;
+    line-height:30px;
+    background:#dbd9d9;
+    margin-bottom:40px;
+    padding:20px 30px;
+}
+.resumeBdTop i{
+    font-style:normal;
+    font-size:14px;
+    color:#666;
+    margin-left:10px;
+}
+.labelL{
+    display:block;
+    width:570px;
+    height:36px;
+    float:left;
+}
+.labelR{
+    display:block;
+    width:570px;
+    height:30px;
+    float:right;
+}
+.topText{
+    display:block;
+    float:left;
+    width:80px;
+    height:30px;
+    margin-right:10px;
+    text-align:right;
+    font-size:16px;
+    color:#444;
+}
+select.workAddress,select.job{
+    width:373px;
+    height:30px;
+    float:left;
+    display:block;
+    border:none;
+    background:#fff;
+    font-family:'Microsoft YaHei';
+    padding:4px 4px 4px 10px;
+    color:#666;
+    font-size:14px;
+    outline:none;
+    line-height:30px;
+}
+select.workAddress option,select.job option{
+    display:block;
+    height:30px;
+    line-height:25px;
+}
+.resumeBdM{
+    width:400px;
+    height:40px;
+    line-height:40px;
+    float:left;
+    display:block;
+    margin-bottom:30px;
+    color:#666;
+    font-size:14px;
+    position:relative;
+}
+i.reds{
+    color:#f00;
+    font-size:12px;
+    display:block;
+    float:left;
+    height:40px;
+    line-height:40px;
+    font-style:normal;
+    margin-left:4px;
+}
+.resumeBdM span{
+    display:block;
+    float:left;
+    width:85px;
+    height:40px;
+    color:#666;
+    font-size:14px;
+    line-height:40px;
+}
+.resumeBdM input{
+    float:left;
+    width:261px;
+    height:38px;
+    line-height:38px;
+    padding:0px 0px 0px 10px;
+    background:#fff;
+    border:1px solid #e1dfdf;
+    font-family:'Microsoft YaHei';
+    outline:none;
+    font-size:14px;
+    color:#666;
+}
+.sexs,.xueli{
+    float:left;
+    width:273px;
+    height:38px;
+    line-height:38px;
+    font-size:14px;
+    color:#666;
+    padding:3px 3px 3px 10px;
+    background:#fff;
+    border:1px solid #e1dfdf;
+    font-family:'Microsoft YaHei';
+    outline:none;
+}
+.resumeText{
+    width:1200px;
+    height:185px;
+    display:block;
+    overflow:hidden;
+    margin-bottom:50px;
+}
+.resumeText span{
+    display:block;
+    float:left;
+    width:85px;
+    height:185px;
+    color:#666;
+    font-size:14px;
+    line-height:185px;
+}
+.textResume{
+    width:1063px;
+    height:177px;
+    float:left;
+    padding:3px 5px;
+    line-height:24px;
+    font-size:14px;
+    color:#666;
+    border:1px solid #e1dfdf;
+    font-family:'Microsoft YaHei';
+    outline:none;
+}
+
+/*楼层介绍 部分*/
+.planMain{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    margin:0px auto;
+}
+.planMain img{
+    display:block;
+    float:left;
+    width:466px;
+    height:370px;
+    margin-right:20px;
+}
+.planMain b{
+    display:block;
+    font-size:24px;
+    color:#666;
+    line-height:36px;
+}
+.planMain p{
+    color:#666;
+    font-size:14px;
+    margin:10px 0px;
+    line-height:24px;
+}
+
+/*floor guide start*/
+.guideMoudle{
+    width:1198px;
+    height:auto;
+    margin:40px auto;
+    background:#fff;
+}
+.moduleTop{
+    width:998px;
+    height:auto;
+    min-height:67px;
+    padding-left:130px;
+    padding:30px 70px 20px 130px;
+    overflow:hidden;
+}
+.th{
+    float:left;
+    display:block;
+    width:80px;
+    height:100%;
+    font-size:16px;
+    color:#666;
+    line-height:34px;
+}
+.listText{
+    float:left;
+    width:915px;
+    height:auto;
+    overflow:hidden;
+}
+.listText a{
+    display:block;
+    float:left;
+    padding:0px 4px;
+    height:36px;
+    line-height:36px;
+    margin-right:20px;
+    font-size:14px;
+    color:#666666;
+    cursor:default;
+}
+.moduleMain{
+    width:1197px;
+    height:auto;
+    border-top:1px solid #ebebeb;
+    border-left:1px solid #ebebeb;
+    overflow:hidden;
+}
+.moduleMain a{
+    display:block;
+    float:left;
+    cursor:default;
+    border-right:1px solid #ebebeb;
+    border-bottom:1px solid #ebebeb;
+}
+.moduleMain a img{
+    display:block;
+}
+.fu{
+    background:url(../images/other/fu.png) no-repeat 39px 23px;
+}
+.one{
+    background:url(../images/other/one.png) no-repeat 39px 23px;
+}
+.two{
+    background:url(../images/other/two.png) no-repeat 39px 23px;
+}
+.three{
+    background:url(../images/other/three.png) no-repeat 39px 23px;
+}
+.four{
+    background:url(../images/other/four.png) no-repeat 39px 23px;
+}
+.five{
+    background:url(../images/other/five.png) no-repeat 39px 23px;
+}
+
+/*走进华联 部分*/
+.aboutUs{
+    width:100%;
+    height:auto;
+    padding:30px 0px 50px;
+}
+.jianjie{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    padding-bottom:60px;
+    margin:0px auto;
+}
+.jianjiePic{
+    float:left;
+    width:444px;
+    height:396px;
+    display:block;
+    margin-right:30px;
+}
+.jianjieRight{
+    width:725px;
+    height:396px;
+    float:left;
+}
+.jjRightT{
+    display:block;
+    padding:0px 0px 10px;
+    font-size:24px;
+    color:#333;
+    text-transform:uppercase;
+    background:url(../images/other/fl.jpg) no-repeat left bottom;
+    margin-bottom:28px;
+}
+.jjRightT i{
+    display:block;
+    font-style:normal;
+    font-size:18px;
+    color:#333;
+    line-height:20px;
+}
+.wbMain{
+    width:725px;
+    height:307px;
+    overflow:hidden;
+    position:relative;
+}
+.jianjieText{
+    width:695px;
+    height:auto;
+    padding-right:30px;
+}
+.jianjieText p{
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+}
+.slimScrollBar{
+    background: url(../images/list/scroll.jpg) no-repeat 50% 100% !important; 
+    height: 20px !important; 
+    width: 4px; 
+    cursor: pointer; 
+}
+.slimScrollRail{
+    width:1px !important;
+    position:absolute;
+    top:0px;
+    right:3.5px !important;
+}
+/*组织结构*/
+.zzJieg{
+    width:100%;
+    background:#f2f3f4;
+    height:auto;
+    padding:50px 0px 60px;
+}
+.jgPic{
+    display:block;
+    width:1200px;
+    height:564px;
+    margin:40px auto 0px;
+}
+/*大事记*/
+.dsj{
+    width:100%;
+    height:auto;
+    padding:50px 0px 60px;
+}
+.dsjMain{
+    width:1200px;
+    height:auto;
+    margin:50px auto 0px;
+    position:relative;
+}
+a.all{
+    width:43px;
+    height:43px;
+    border:1px solid #c2c2c2;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    
+}
+a.prev{
+    left:0;
+    background:#ffffff url(../images/other/prevN.png) no-repeat center;
+}
+a.next{
+    right:0;
+    background:#ffffff url(../images/other/nextN.png) no-repeat center;
+}
+a.prev:hover{
+    border:1px solid #065baa;
+    left:0;
+    background:#065baa url(../images/other/prevO.png) no-repeat center;
+}
+a.next:hover{
+    border:1px solid #065baa;
+    right:0;
+    background:#065baa url(../images/other/nextO.png) no-repeat center;
+}
+.jdMain{
+    position:relative;
+    overflow:hidden;
+}
+.dsjMm{
+    width:1055px;
+    height:auto;
+    margin:0px auto;
+    overflow:hidden;
+    position:relative;
+    background:url(../images/other/lcBg.jpg) repeat-x left center;
+    padding-left:15px;
+}
+.jdMain li{
+    float:left;
+    width:300px;
+    position:relative;
+    margin-right:-85px;
+    position:relative;
+}
+.jdBot .yuanN{
+    position:absolute;
+    top:0px;
+    left:143.5px;
+    width:13px;
+    height:13px;
+    background:url(../images/other/nYuan.png) no-repeat center;
+}
+.jdBot .yuanO{
+    position:absolute;
+    top:0px;
+    left:143.5px;
+    width:13px;
+    height:13px;
+    background:url(../images/other/oYuan.png) no-repeat center;
+}
+.jdBot .jdTitN{
+    display:block;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    color:#f2f3f4;
+    background:#c2c2c2;
+    margin-top:40px;
+}
+.jdBot .jdTitN .jiantouN{
+    width:22px;
+    height:11px;
+    position:absolute;
+    top:29px;
+    left:139px;
+    background:url(../images/other/nJian2.png) no-repeat center;
+}
+.jdBot .jdTitO{
+    display:block;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    color:#fff;
+    background:#035cac;
+}
+.jdBot .jdTitN .jiantouO{
+    width:22px;
+    height:11px;
+    position:absolute;
+    top:29px;
+    left:139px;
+    background:url(../images/other/onJian.png) no-repeat center;
+}
+.jdBot .miaos{
+    width:270px;
+    background:#f2f3f4;
+    font-size:14px;
+    color:#444;
+    line-height:24px;
+    margin:0px;
+    padding:10px 15px;
+}
+/*上模块*/
+.jdTop{
+    margin-top:0px;
+}
+.jdTop .yuanN{
+    position:absolute;
+    bottom:0px;
+    left:143.5px;
+    width:13px;
+    height:13px;
+    background:url(../images/other/nYuan.png) no-repeat center;
+}
+.jdTop .yuanO{
+    position:absolute;
+    bottom:0px;
+    left:143.5px;
+    width:13px;
+    height:13px;
+    background:url(../images/other/oYuan.png) no-repeat center;
+}
+.jdTop .jdTitN{
+    display:block;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    color:#f2f3f4;
+    background:#c2c2c2;
+    margin-bottom:40px;
+}
+.jdTop .jdTitN .jiantouN{
+    width:22px;
+    height:11px;
+    position:absolute;
+    bottom:29px;
+    left:137px;
+    background:url(../images/other/nJian.png) no-repeat center;
+}
+.jdTop .jdTitO{
+    display:block;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    font-size:20px;
+    color:#fff;
+    background:#035cac;
+}
+.jdTop .jdTitN .jiantouO{
+    width:22px;
+    height:11px;
+    position:absolute;
+    bottom:29px;
+    left:137px;
+    background:url(../images/other/onJian2.png) no-repeat center;
+}
+.jdTop .miaos{
+    width:270px;
+    background:#f2f3f4;
+    font-size:14px;
+    color:#444;
+    line-height:24px;
+    margin:0px;
+    padding:10px 15px;
+}
+
+
+
+
+
+
+
+/*企业文化*/
+.whList{
+    width:1200px;
+    height:auto;
+    overflow:hidden;
+    margin:50px auto 0px;
+}
+.whList li{
+    width:250px;
+    height:auto;
+    float:left;
+    text-align:center;
+    padding:0px 25px;
+}
+.whList li img{
+    display:block;
+    margin:0px auto 20px;
+}
+.whList li b{
+    display:block;
+    font-size:24px;
+    color:#444444;
+    line-height:36px;
+    height:36px;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.whList li p{
+    font-size:14px;
+    color:#444444;
+    line-height:24px;
+    height:48px;
+    overflow:hidden;
+    margin:0px;
+}
+/*企业风采*/
+.qyStyle{
+    width:1200px;
+    height:auto;
+    margin:40px auto 0px; 
+    overflow:hidden;
+}
+.qyStyle li{
+    width:368px;
+    height:auto;
+    float:left;
+    margin:10px 16px;
+}
+.qyStyle li a{
+    display:block;
+}
+.qyStyle li a:hover b{
+    color:#065baa;
+}
+.qyStyle li a img{
+    display:block;
+    width:368px;
+    height:236px;
+}
+.qyStyle li a b{
+    display:block;
+    text-align:center;
+    font-size:14px;
+    color:#666;
+    line-height:36px;
+}
+.styleMore{
+    display:block;
+    width:116px;
+    height:32px;
+    margin:50px auto 0px;
+    border:1px solid #666666;
+    line-height:32px;
+    text-align:center;
+    font-size:14px;
+    color:#666;
+    text-transform:uppercase;
+}
+.styleMore:hover{
+    color:#035cac;
+    border:1px solid #035cac;
+}
+
+/*分布平面图 部分*/
+.slidePic{
+    width:1150px;
+    height:auto;
+    position:relative;
+    padding:0px 70px;
+    margin:0px auto;
+}
+a.prevSp{
+    display:block;
+    width:43px;
+    height:85px;
+    position:absolute;
+    left:40px;
+    top:216px;
+    background:url(../images/prev2.png) no-repeat left center;
+}
+a.nextSp{
+    display:block;
+    width:43px;
+    height:85px;
+    position:absolute;
+    right:40px;
+    top:216px;
+    background:url(../images/next2.png) no-repeat right center;
+}
+.slideMain{
+    width:840px;
+    height:520px;
+    margin:0px auto;
+    position:relative;
+    overflow:hidden;
+}
+.slideMain li{
+    width:838px;
+    height:518px;
+    padding:1px;
+    background:#fff;
+}
+.slideMain li img{
+    display:block;
+}
+.mainTab{
+    width:1150px;
+    height:62px;
+    margin:60px auto 40px;
+    border-top:1px solid #d6d6d6;
+    border-bottom:1px solid #d6d6d6;
+}
+.mainTab li{
+    width:180px;
+    height:62px;
+    text-align:center;
+    line-height:62px;
+    color:#444;
+    font-size:16px;
+    background:#eee;
+    float:left;
+    margin:0px 7px 0px 7px;
+    cursor:pointer;
+}
+
+.mainTab li.on{
+    color:#fff;
+    background:#065baa;
+}
+.mainTab li.lastO{
+    margin-left:0px;
+}
+.mainTab li.lastT{
+    margin-right:0px;
+}
+
+/*额外的类属性*/
+.Validform_wrong{
+    position:absolute;
+    top:47px;
+    left:65px;
+}

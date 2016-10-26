@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>用人理念</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<!-- #include file="header.html" -->
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--hlfull start-->
+<section class="hlfull">
+    <span class="allTit">
+        <b class="bigF"><i class="blue">人力</i>资源</b>
+        <font class="eF">Human Resources</font>
+        <em class="botBor"></em>
+    </span>
+    <ul class="slidesTits">
+        <li class="liOne on"><a href="employmentConception.html">用人理念</a></li>
+        <li class="liThree"><a href="recruit.html">英才招聘</a></li>
+        <li class="liTwo"><a href="resume.html">简历投递</a></li>
+    </ul>
+    <article class="employMain">
+        <b class="jc">企业的竞争，是服务的竞争、是产品的竞争、科技的竞争但最终是人才的竞争。</b>
+        <p>郑州华联商厦有限责任公司十分重视人才的引进与培养，一直把吸引人才、培育人才、最大限度地发挥人才的作用，作为企业的一项战略任务。公司建立了一套完备、系统的培训体系，为员工在专业技能和职业发展提供各种类型的培训，并配套相应的绩效考核制度，为员工奖励、晋升提供客观、可靠的依据。</p>
+        <p>充分调动了管理人员的工作激情与创新思维，造就了一批优秀的经理队伍。公司始终把人才作为企业发展的根本动力，努力从不同的方面吸引人才，努力为每个人打造人尽其才的便利条件，留住人才，使企业成为人才聚集的高地。</p>
+        <span class="bPic">
+            <img src="images/test/lin1.jpg" />
+            <img src="images/test/lin2.jpg" />
+            <img src="images/test/lin3.jpg" />
+        </span>
+    </article>
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+</body>
+</html>

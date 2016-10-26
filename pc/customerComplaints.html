@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <meta name="keywords" content="郑州华联商厦">
+    <meta name="description" content="郑州华联商厦">
+    <title>客户投诉</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--toper start-->
+<!-- #include file="header.html" -->
+
+<div class="otherBanner">
+    <img src="images/other/kfzx.jpg" />
+</div>
+<!--onLineOrder start-->
+<div class="onLineOrder">
+    <span class="title">
+        <b><i class="blue">客服</i>中心</b>
+        <font>Customer Service</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="tab">
+        <a href="contactUs.html">联系我们</a>
+        <a href="feedBack.html">客户留言</a>
+        <a href="customerComplaints.html" class="on">客户投诉</a>
+    </div>
+    <div class="memberReg">
+        <form action="#" method="post" name="member">
+            <label class="memberMain">
+                <span>姓名</span>
+                <input type="text" name="userName" placeholder="请输入您的姓名" />
+            </label>
+            <label class="memberMain">
+                <span>邮箱</span>
+                <input type="text" name="email" placeholder="请输入您的邮箱地址" />
+            </label>
+            <label class="memberMain">
+                <span>手机</span>
+                <input type="text" name="phon" placeholder="请输入您的手机号" />
+            </label>
+            <label class="memberMain">
+                <span>地址</span>
+                <input type="text" name="address" placeholder="请输入您的现居地地址" />
+            </label>
+            <label class="textArea">
+                <span>内容</span>
+                <textarea class="textMain"></textarea>
+            </label>
+            <label class="memberMain">
+                <span>验证码</span>
+                <input class="yzm" type="text" name="yzm" />
+                <i class="yzmPic"><img src="images/test/yzm.jpg" /></i>
+                <input class="memBtn" type="submit" value="提交" />
+            </label>
+        </form>
+    </div>
+</div>
+
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+<!--rightSide start-->
+<!-- #include file="rightSide.html" -->
+
+<script type="text/javascript">
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 60) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 60) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

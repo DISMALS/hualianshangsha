@@ -1,0 +1,350 @@
+﻿@charset "UTF-8";
+/*
+    制作时间：2016.07.04
+    作者：王勇
+    用途：郑州华联商厦手机版首页样式表
+*/
+body{background:#fff;position:relative;}
+/*floor start*/
+.floorM{
+     width:96%;
+     height:auto;
+     padding:0rem 2%;
+}
+.floor{
+    width:100%;
+    height:auto;
+    padding:0.75rem 0%;
+    background:#fff;
+    overflow:hidden;
+}
+.floor li{
+    float:left;
+    width:15%;
+    height:2.25rem;
+    line-height:2.25rem;
+    text-align:center;
+    font-size:0.75rem;
+    text-transform:uppercase;
+    margin:0rem 0.75%;
+}
+.floor li.mrL{
+    margin-left:1.25%;
+}
+.floor li a{
+    display:block;
+    border-radius:50%;
+    color:#fff;
+}
+.floor a.fuyi{
+    background:#3584cb;
+}
+.floor a.one{
+    background:#e3450e;
+}
+.floor a.two{
+    background:#0aa44f;
+}
+.floor a.three{
+    background:#f5b416;
+}
+.floor a.four{
+    background:#3daffa;
+}
+.floor a.five{
+    background:#ee1d4f;
+}
+/*search start*/
+.search{
+    width:96%;
+    height:auto;
+    padding:0.5rem 2%;
+    background:#065baa;
+}
+.searchM{
+    width:96%;
+    height:1.875rem;
+    background:#fff;
+    border-radius:0.3rem;
+    padding:0rem 2%;
+}
+.searchBtn{
+    display:block;
+    width:8%;
+    height:1.875rem;
+    float:left;
+    background:url(../images/search.png) no-repeat center;
+    background-size:contain;
+    margin-right:2%;
+}
+input.searchText{
+    width:86%;
+    height:1.875rem;
+    line-height:1.875rem;
+    padding-left:2%;
+    font-size:0.75rem;
+    color:#999999;
+    font-family:'Microsoft YaHei';
+}
+/*product start*/
+.product{
+    width:100%;
+    height:auto;
+    padding:0rem 0% 0.75rem;
+    background:#fff;
+}
+
+/*productMain start*/
+.productMain{
+    width:100%;
+    height:auto;
+}
+.slideTit{
+    width:96%;
+    height:1.5rem;
+    line-height:1.5rem;
+    text-align:center;
+    margin:0rem auto 0.3rem;
+}
+.slideTit li{
+    width:49%;
+    height:1.4rem;
+    float:left;
+    background:#fff;
+    border:0.05rem solid #999999;
+    font-size:0.7rem;
+    text-align:center;
+    line-height:1.4rem;
+}
+.slideTit li.liOne{
+    border-top-left-radius:0.3rem;
+    border-bottom-left-radius:0.3rem;
+    border-right:none;
+}
+.slideTit li.liTwo{
+    border-top-right-radius:0.3rem;
+    border-bottom-right-radius:0.3rem;
+    border-left:none;
+}
+.slideTit li.on{
+    background:#065baa;
+    border:0.05rem solid #065baa;
+    color:#fff;
+}
+.slideTit li a{
+    color:#666666;
+}
+.slideTit li.on a{
+    color:#fff;
+}
+.slideMm{
+    width:100%;
+    height:auto;
+}
+.slideList{
+    width:98%;
+    height:auto;
+    overflow:hidden;
+    padding:0rem 1%;
+}
+.slideList a{
+    display:block;
+    float:left;
+    width:44.3%;
+    height:9.5rem;
+    margin:0.2rem 1%;
+    border:0.05rem solid #dadad9;
+    padding:0.25rem 1.5%;
+    text-align:center;
+    overflow:hidden;
+}
+.slideList a img{
+   width:100%;
+   height:auto;
+   max-width:267px;
+   max-height:280px;
+   display:block;
+   margin-bottom:0.3rem;
+}
+.slideList a b{
+    display:block;
+    line-height:0.8rem;
+    font-size:0.7rem;
+    color:#333;
+    height:0.8rem;
+    overflow:hidden;
+}
+.slideList a p{
+    font-size:0.6rem;
+    color:#666;
+    line-height:0.7rem;
+    height:0.7rem;
+    overflow:hidden;
+}
+
+/*hlfull start*/
+.hlfull{
+    width:100%;
+    height:auto;
+    background:#f2f3f4;
+    padding:0.75rem 0%;
+}
+.hlTit{
+    color:#e60012;
+    display:block;
+    font:0.9rem;
+    line-height:1.2rem;
+    text-align:center;
+    text-transform:uppercase;
+}
+.botBor{
+    display:block;
+    width:14%;
+    height:2px;
+    background:#065baa;
+    margin:0.3rem auto 0rem;
+}
+.hlMs{
+    display:block;
+    font-size:0.6rem;
+    color:#444;
+    line-height:0.9rem;
+    text-align:center;
+    padding:0.5rem 2%;
+}
+.hlList{
+    width:98%;
+    height:auto;
+    overflow:hidden;
+    padding:0rem 1%;
+}
+.hlList li{
+    float:left;
+    width:48%;
+    height:10.5rem;
+    text-align:center;
+    background:#fff;
+    margin:0.5rem 1%;
+    overflow:hidden;
+}
+.hlList li a{
+    display:block;
+}
+.hlList li a img{
+    display:block;
+    width:100%;
+    height:auto;
+    max-width:290px;
+    max-height:300px;
+    margin-bottom:0.3rem;
+}
+.hlList li a b{
+    display:block;
+    font-size:0.6rem;
+    color:#333;
+    line-height:0.9rem;
+    height:0.9rem;
+    overflow:hidden;
+    padding:0px 2%;
+}
+.hlList li a p{
+    font-size:0.6rem;
+    color:#666;
+    height:0.8rem;
+    overflow:hidden;
+    line-height:0.8rem;
+    padding:0px 2%;
+}
+/*news start */
+.news{
+    width:100%;
+    height:auto;
+    padding:0rem 0% 0.75rem;
+    background:#fff;
+}
+.newsMain{
+    width:100%;
+    height:auto;
+}
+.slidesMm{
+    width:100%;
+    height:auto;
+}
+.slidesList{
+    width:100%;
+    height:auto;
+}
+.slidesList li{
+    width:96%;
+    height:auto;
+    border-bottom:1px solid #dedede;
+    padding:0.5rem 2%;
+}
+.slidesList li a{
+    display:block;
+    background:url(../images/go1.png) no-repeat right center;
+    background-size:3% 24%;
+    padding-right:1rem
+}
+.tit{
+    display:block;
+    font-size:0.6rem;
+    color:#333;
+    line-height:1rem;
+    height:1rem;
+    overflow:hidden;
+}
+.miaos{
+    color:#888888;
+    font-size:0.6rem;
+    line-height:0.9rem;
+    height:1.8rem;
+    overflow:hidden;
+}
+.time{
+    display:block;
+    color:#666;
+    font-size:0.6rem;
+    line-height:0.9rem;
+    margin-top:0.2rem;
+}
+/*hezuo start*/
+.hezuo{
+    width:100%;
+    height:auto;
+    padding-bottom:0.75rem;
+}
+.hzMain{
+    width:100%;
+    height:7.25rem;
+    background:url(../images/flHz.jpg) repeat-x left center;
+    position:relative;
+    overflow:hidden;
+}
+.heList{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:0px;
+    left:-1px;
+}
+.heList li{
+    float:left;
+    width:33%;
+    height:3.625rem;
+    border-left:1px solid #dedede;
+    border-bottom:1px solid #dedede;
+    overflow:hidden;
+}
+.heList li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.heList li a img{
+    display:block;
+    width:100%;
+    height:100%;
+    max-width:198px;
+    max-height:144px;
+}

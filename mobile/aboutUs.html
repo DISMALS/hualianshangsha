@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>企业简介</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<section class="header">
+    <a href="#" class="backPrev"></a>
+    <a href="index.html" class="logo"></a>
+    <a href="javascript:void(0);" class="menu menuTM"></a>
+    <ul class="menuList" style="display:none;">
+        <li><a href="aboutUs.html">企业简介</a></li>
+        <li><a href="eventChronicle.html">大事记</a></li>
+        <li><a href="culture.html">企业文化</a></li>
+        <li><a href="conpanyStyle.html">企业风采</a></li>
+    </ul>
+</section>
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--news start-->
+<section class="aboutUs">
+    <span class="allTit">
+        <b class="bigF"><i class="blue">企业</i>简介</b>
+        <font class="eF">company profile</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="aboutUsM">
+        <img src="images/test/aboutUs.jpg" />
+        <p>郑州华联商厦有限责任公司始建于1987年，1990年9月1日建成开业，经营品种达四万余种。自开业至今，累计实现销售近40亿元，上缴利税近2亿元，为郑州市商贸城建设和财税收入作出了重要贡献。商厦先后获得全国“五一”劳动奖状、全国百家知名企业、全国无假冒伪劣商品商店、全国售后服务满意单位、全国商业信誉企业、中国保护消费者杯、全国打假先进单位等100多项荣誉称号，并曾连年跻身全国百家最大零售企业和全国500强企业行列。 </p>
+        <p>2003年商厦被列为郑州市33家改制试点单位。在市委、市政府及主管局的正确领导和全体员工的共同努力下，郑州华联商厦的改制工作走在了郑州市大型商场的前列，为同行业的改制带了个好头，是目前郑州市大型商场唯一一家自己改制成功的企业。2007年6月7日改制工作顺利完成，这标志着作为国有商业的郑州华联商厦的历史使命已经完成，同时也标志着郑州华联商厦获得了新的发展机遇。一个全新的、具有健全法人治理结构的郑州华联商厦有限责任公司诞生。</p>
+        <p>郑州华联商厦有限责任公司坚持诚信立业的指导思想，建立起与供应商、合作伙伴长期互信互惠的合作关系，奉行“为社会而存，为顾客而想，为企业而强，为员工而富”的企业理念，深化内部改革，强化企业管理，不断开拓市场，在竞争中求生存、谋发展，取得了良好的经济效益和社会效益：扭转了长期亏损的局面，经营状况呈现良好发展势头，销售额持续攀升，税收大幅度增长，职工收入较改制前增长5倍多，并逐年递增。</p>
+        <p>公司注重履行企业社会责任，致力公益慈善事业，以爱心回馈社会。在2008年“5•12”四川汶川大地震发生后，捐款捐物108万元。在2008年、2009年、2010年、2011年连续四年向慈善机构捐款共计45万元，并被授予“河南省首届关爱新农村十佳慈善单位”荣誉称号。</p>
+        <p>公司2010年投资2000余万元对经营环境进行了高标准、高品位的整体装修改造，为广大消费者营造了一个集购物、休闲、餐饮、观光为一体的温馨、高雅、靓丽的全新购物场所。</p>
+        <p>董事长兼总经理张淑云同志是全国第一次商战的亲历者，也是目前郑州市在第一次商战中唯一坚持在总经理岗位上的企业管理者。</p>
+    </div>
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+</body>
+</html>

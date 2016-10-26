@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>大事记</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<section class="header">
+    <a href="#" class="backPrev"></a>
+    <a href="index.html" class="logo"></a>
+    <a href="javascript:void(0);" class="menu menuTM"></a>
+    <ul class="menuList" style="display:none;">
+        <li><a href="aboutUs.html">企业简介</a></li>
+        <li><a href="eventChronicle.html">大事记</a></li>
+        <li><a href="culture.html">企业文化</a></li>
+        <li><a href="conpanyStyle.html">企业风采</a></li>
+    </ul>
+</section>
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--news start-->
+<section class="aboutUs">
+    <span class="allTit">
+        <b class="bigF"><i class="blue">大事记</i></b>
+        <font class="eF">Events</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="events">
+        <div class="eventsM">
+            <span class="eventsTit eventsNor">2004</span>
+            <div class="mMain" style="display:none;">
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+            </div>
+        </div>
+        <div class="eventsM">
+            <span class="eventsTit eventsNor">2004</span>
+            <div class="mMain" style="display:none;">
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+            </div>
+        </div>
+        <div class="eventsM">
+            <span class="eventsTit eventsNor">2004</span>
+            <div class="mMain" style="display:none;">
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+            </div>
+        </div>
+        <div class="eventsM">
+            <span class="eventsTit eventsNor">2004</span>
+            <div class="mMain" style="display:none;">
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+                <div class="sj"><i class="timer">10.08</i><p>郑州华联商厦有限责任公司是全国华联商厦集团成员单位</p></div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+</body>
+</html>

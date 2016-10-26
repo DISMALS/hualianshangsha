@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />  <!--按照标准模式进行渲染-->
+    <meta name="keywords" content="郑州华联商厦">
+    <meta name="description" content="郑州华联商厦">
+    <title>简历投递</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--toper start-->
+<!-- #include file="header.html" -->
+
+<div class="otherBanner">
+    <img src="images/other/kfzx.jpg" />
+</div>
+<!--recruit start-->
+<div class="onLineOrder">
+    <span class="title">
+        <b><i class="blue">人力</i>资源</b>
+        <font>Human Resources</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="tab">
+        <a href="employmentConception.html">用人理念</a>
+        <a href="recruit.html">英才招聘</a>
+        <a href="resume.html" class="on">简历投递</a>
+    </div>
+    <!--简历投递部分-->
+    <div class="resumeMain">
+        <form action="#" method="post" name="resumeBd">
+            <div class="resumeBdTop">
+                <label class="labelL">
+                    <span class="topText">应聘职位</span>
+                    <select class="job">
+                        <option value="0">请选择职位</option>
+                        <option value="1">计算机网络技术</option>
+                        <option value="2">高级销售员</option>
+                        <option value="3">高级文案策划</option>
+                        <option value="4">网站设计师</option>
+                        <option value="5">Web前端开发工程师</option>
+                    </select>
+                    <i>*</i>
+                </label>
+                <label class="labelR">
+                    <span class="topText">工作地点</span>
+                    <select class="workAddress">
+                        <option value="00">请选择工作地点</option>
+                        <option value="11">河南郑州金水区</option>
+                        <option value="22">河南郑州高新区</option>
+                        <option value="33">河南郑州二七区</option>
+                        <option value="44">河南郑州管城区</option>
+                        <option value="55">广东省深圳市白云区</option>
+                    </select>
+                    <i>*</i>
+                </label>
+            </div>
+            <label class="resumeBdM">
+                <span>姓名：</span>
+                <input type="text" name="yourName" placeholder="请输入您的姓名" />
+                <i class="reds">*</i>
+            </label>
+            <label class="resumeBdM">
+                <span>性别：</span>
+                <select class="sexs">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </label>
+            <label class="resumeBdM">
+                <span>民族：</span>
+                <input type="text" name="yourName" placeholder="例如：汉族" />
+            </label>
+            <label class="resumeBdM">
+                <span>籍贯：</span>
+                <input type="text" name="yourName" placeholder="例如：河南省郑州市" />
+            </label>
+            <label class="resumeBdM">
+                <span>年龄：</span>
+                <input type="text" name="yourName" placeholder="请输入您的年龄" />
+            </label>
+            <label class="resumeBdM">
+                <span>政治面貌：</span>
+                <input type="text" name="yourName" placeholder="例如：共产党员" />
+            </label>
+            <label class="resumeBdM">
+                <span>文化程度：</span>
+                <select class="xueli">
+                    <option value="MBA/EMBA">MBA/EMBA</option>
+                    <option value="博士">博士</option>
+                    <option value="硕士">硕士</option>
+                    <option value="本科">本科</option>
+                    <option value="大专">大专</option>
+                    <option value="中专/技校">中专/技校</option>
+                    <option value="高中">高中</option>
+                    <option value="高中以下">高中以下</option>
+                </select>
+            </label>
+            <label class="resumeBdM">
+                <span>毕业学校：</span>
+                <input type="text" name="yourName" placeholder="例如：哈佛大学" />
+            </label>
+            <label class="resumeBdM">
+                <span>专业：</span>
+                <input type="text" name="yourName" placeholder="例如：计算机专业" />
+            </label>
+            <label class="resumeBdM">
+                <span>毕业时间：</span>
+                <input type="text" name="yourName" placeholder="请输入您的毕业时间" />
+            </label>
+            <label class="resumeBdM">
+                <span>联系电话：</span>
+                <input type="text" name="yourName" placeholder="请输入您的手机号" />
+            </label>
+            <label class="resumeText">
+                <span>个人简历：</span>
+                <textarea class="textResume"></textarea>
+            </label>
+            <label class="memberMain">
+                <span style="width:85px; text-align:left; margin-right:0px;">验证码：</span>
+                <input class="yzm" type="text" name="yzm" />
+                <i class="yzmPic" style="margin:0px 17px;"><img src="images/test/yzm.jpg" /></i>
+                <input class="memBtn" type="submit" value="提交" />
+            </label>
+        </form>
+    </div>
+</div>
+
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+<!--rightSide start-->
+<!-- #include file="rightSide.html" -->
+
+<script type="text/javascript">
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 100) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 100) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>分布平面图</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<!-- #include file="header.html" -->
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--hlfull start-->
+<section class="hlfull padB" style="position:relative;">
+    <span class="allTit">
+        <b class="bigF"><i class="blue">楼层</i>介绍</b>
+        <font class="eF">Floor Guide</font>
+        <em class="botBor"></em>
+    </span>
+    <ul class="slidesTits">
+        <li class="liOne"><a href="allPlan.html">整体规划</a></li>
+        <li class="liThree on"><a href="floorGuide.html">楼层介绍</a></li>
+        <li class="liTwo"><a href="areaPic.html">分布平面图</a></li>
+    </ul>
+    <div class="floorGud" id="fuyi">
+        <span class="guideTit"><i class="fuyi">-1f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+    <div class="floorGud" id="yi">
+        <span class="guideTit"><i class="yi">1f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+    <div class="floorGud" id="er">
+        <span class="guideTit"><i class="er">2f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+    <div class="floorGud" id="san">
+        <span class="guideTit"><i class="san">3f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+    <div class="floorGud" id="si">
+        <span class="guideTit"><i class="si">4f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+    <div class="floorGud" id="wu">
+        <span class="guideTit"><i class="wu">5f</i>商品分类：</span>
+        <ul class="floorProN">
+            <li>时尚名品</li>
+            <li>星巴克咖啡 </li>
+            <li>屈臣氏</li>
+            <li>时尚彩妆</li>
+            <li>鞋品</li>
+            <li>箱包</li>
+            <li>煌明皇珠宝</li>
+            <li>名牌珠宝</li>
+            <li>明视达</li>
+            <li>中国联通</li>
+        </ul>
+        <ul class="floorProP">
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP4.jpg" /></li>
+            <li><img src="images/test/floorProP3.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP1.jpg" /></li>
+            <li><img src="images/test/floorProP2.jpg" /></li>
+        </ul>
+    </div>
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+</body>
+</html>

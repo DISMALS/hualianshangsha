@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">   <!--强制360浏览器为急速模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />  <!--按照IE8进行渲染-->
+    <meta name="keywords" content="郑州华联商厦">
+    <meta name="description" content="郑州华联商厦">
+    <title>分布平面图</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/other.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<!--toper start-->
+<!-- #include file="header.html" -->
+
+<div class="otherBanner">
+    <img src="images/list/guihua_banner.jpg" />
+</div>
+<!--onLineOrder start-->
+<div class="onLineOrder">
+    <span class="title">
+        <b><i class="blue">楼层</i>介绍</b>
+        <font>Floor Guide</font>
+        <em class="botBor"></em>
+    </span>
+    <div class="tab">
+        <a href="allPlan.html">整体规划</a>
+        <a href="floorGuide.html">楼层介绍</a>
+        <a href="areaPic.html" class="on">分布平面图</a>
+    </div>
+    <div class="slidePic">
+        <a href="javascript:void(0);" class="prevSp"></a>
+        <a href="javascript:void(0);" class="nextSp"></a>
+        <ul class="slideMain">
+            <li><img src="images/test/fbt1.jpg" width="838" height="518" /></li>
+            <li><img src="images/test/fbt2.jpg" width="838" height="518" /></li>
+            <li><img src="images/test/fbt3.jpg" width="838" height="518" /></li>
+            <li><img src="images/test/fbt1.jpg" width="838" height="518" /></li>
+            <li><img src="images/test/fbt2.jpg" width="838" height="518" /></li>
+            <li><img src="images/test/fbt3.jpg" width="838" height="518" /></li>
+        </ul>
+        <ul class="mainTab">
+            <li class="lastO">负一楼</li>
+            <li>一楼</li>
+            <li>二楼</li>
+            <li>三楼</li>
+            <li>四楼</li>
+            <li class="lastT">五楼</li>
+        </ul>
+    </div>
+</div>
+
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+<!--rightSide start-->
+<!-- #include file="rightSide.html" -->
+
+<script type="text/javascript">
+
+    //图片切换
+    jQuery(".slidePic").slide({
+        mainCell: ".slideMain",
+        titCell: ".mainTab li",
+        effect: "fold",
+        autoPlay: true,
+        delayTime: 800,
+        triggerTime: 50,
+        prevCell: ".prevSp",
+        nextCell: ".nextSp"
+    });
+
+    //右侧浮动显示
+    $(window).scroll(function () {
+        var winTop = $(window).scrollTop();
+        if (winTop < 100) {
+            $(".rightSide").hide(300);
+        } else if (winTop >= 100) {
+            $(".rightSide").show(300, function () {
+                $(".backTop").click(function () {
+                    $(window).scrollTop(0);
+                });
+            });
+        }
+    });
+</script>
+</body>
+</html>

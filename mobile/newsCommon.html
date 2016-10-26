@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="郑州华联商厦手机版">
+    <meta name="description" content="郑州华联商厦手机版">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = no" />
+    <!--禁止缩放-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!--全屏显示-->
+    <meta content="telephone=no" name="format-detection" />
+    <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <title>新闻详情</title>
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/list.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/tool.js"></script>
+    <script type="text/javascript">
+    //设置根字号
+    function resizeB() {
+        var htmlB = document.getElementsByTagName("html")[0]; //获取html标签
+        var screenWidth = window.innerWidth || document.documentElement.clientWidth;  //获取屏幕宽度
+        var _fontSize = 20 * (screenWidth / 320)//获取根字号大小
+        if (screenWidth < 641) {
+            //把根字号大小给html
+            htmlB.style.fontSize = _fontSize + "px";
+        };
+    }
+    addDomLoaded(resizeB);
+    window.onresize = function () {
+        resizeB();
+    };
+    </script>
+</head>
+<body>
+<!--header start-->
+<!-- #include file="header.html" -->
+<!--banner start-->
+<!-- #include file="banner.html" -->
+<!--news start-->
+<section class="newsCommon">
+    <b class="newsComT">郑州华联商厦五楼羽绒服大卖场开业</b>
+    <i class="times">2016-06-07</i>
+    <article class="textMain">
+        <p>在这个冬季穿着舒适的冬装，周末和男朋友出去郊游吧，穿着情侣装甜蜜又浪漫,毛衣、外套给你无限温暖。辛苦了一周的OL们，周末和男朋友出去郊游吧，穿着情侣装甜蜜又浪漫，不论你们走在闹市区还是林阴小路都会成为人们羡慕和祝福的焦点。毛衣、外套帮你赶走寒风，给你们带来甜蜜的温暖。不经意中将情侣间的亲密无间展露无遗，通过细节的独特创意与设计吸引眼球，张扬只在不经意间，却又无处不在，在轻松与个性中用时尚演绎心情。</p>
+        <img src="images/test/test1.jpg" />
+        <p>时尚点评：如果是情侣，选择一套款式、颜色相似套装，不但成为众目的焦点而且也可以增进彼此的感情!当然休闲装穿着舒适、行动方便，是年轻人最喜爱的服饰之一。时尚点评：运动款棉衣小外套搭配牛仔裤和帆布鞋穿着，时尚舒适而简洁。宽松的休闲外套优雅时尚，也穿出了情侣间默契和自然的感觉。时尚点评：休闲为主的情侣服装搭配，显然是轻松舒适的日子，最重要的是怎么去呼应的搭配好情侣的穿着角色，不要小看搭配的用意哦!时尚点评：款式相同的情侣外套，但颜色不同，这就是它们独特对比的原则，使他们成为交点。 </p>
+    </article>
+    <div class="page">
+        <a href="#" class="prevPage">上一篇：2013运动时尚流行风向</a>
+        <a href="#" class="nextPage">下一篇：2013运动时尚流行风向</a>
+    </div>
+</section>
+<!--footer start-->
+<!-- #include file="footer.html" -->
+
+</body>
+</html>
